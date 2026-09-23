@@ -30,7 +30,13 @@ This project delivers the business requirements, process flows, 3NF schema archi
 * **Storefront Integrity:** Conditional query logic ensuring only `APPROVED` reviews render on Product Detail Pages (PDP).
 
 ---
+## Data Source
+The dataset used in this project is adapted from the **Women's Clothing E-Commerce Reviews** dataset (available publicly on [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)). 
 
+After cleaning the raw dataset to remove blanks and messy records, I specifically chose a focused sample of 151 customer reviews. This gave a clean, realistic set of data to audit customer feedback, spot problem products, and build a structured database from scratch.
+
+
+---
 ##  Tools & Technologies
 * **Database & SQL:** PostgreSQL, Supabase (DDL, DML, relational joins, aggregate filtering)
 * **Data Auditing:** Microsoft Excel (pivot tables, logical formulas)
